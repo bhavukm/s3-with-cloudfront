@@ -15,7 +15,9 @@ Steps:
 2. Request a Public Certificate from AWS Certificate Manager (example: *.website.click): This is to use HTTPS-encrypted connections when users use CloudFront.
 3. S3 Bucket for Static Website (only HTTP is allowed): Create an S3 bucket with default options and upload your static website content.
 4. AWS CloudFront: Create an AWS CloudFront Distribution to server your static website hosted on AWS S3 bucket.
-5. Create a DNS record in Route53: Point your CloudFront URL to your website name (choose "A ‐ Routes traffic to an IPv4 address and some AWS resources")
+5. Create a DNS record in Route53: Point your CloudFront URL to your website name (choose "A ‐ Routes traffic to an IPv4 address and some AWS resources").
+6. Access the website on a browser (example: demo.website.click).
 
+![image](https://github.com/user-attachments/assets/f5289c88-424d-4848-91a7-dafe87a94e74)
 
 
